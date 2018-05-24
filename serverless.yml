@@ -1,0 +1,10 @@
+
+service: template
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  hello:
+    handler: dist/index.hello
